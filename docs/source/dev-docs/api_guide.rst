@@ -253,7 +253,9 @@ The response will look like this::
 
 Use this data to construct the listing objects.  
 
-**_`Third`**, use ``google_tokens`` for a GET request to the following endpoint::
+.. _here: 
+
+**Third**, use ``google_tokens`` for a GET request to the following endpoint::
     
     /userlist/google,tokens,separated,by,commas
 
@@ -318,8 +320,6 @@ Notice that the listings are in order from most to least recent.  From here,
 the user and book objects will be loaded *separately*.  For book-object queries
 from ISBNs, see here_.  Use the data from those queries to construct the full 
 home page.  
-
-.. _here: `Third`_
 
 *********************
 7. Deleting Objects
